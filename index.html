@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,20 +8,18 @@
   </head>
 
   <body>
-
     <header>
       <h2>Vue Js 3 Start</h2>
     </header>
 
-    <div id="app">
-        <h2> Counter: {{ count }} </h2>
-        <button @:click="count = count+ 1" >Increment</button>
-        <button @:click="decrese" >Decrement</button> 
+    <div id="app"> 
+      <input type="text" v-model="firstname" placeholder="First Name" />
+      <input type="text" v-model="lastname" placeholder="Last Name" />
+      <br>
+      <p>Your Full Name Is:{{ fullname }} </p>
     </div>
 
     <script src="vue.js"></script>
     <script src="app.js"></script>
-
   </body>
-
 </html>

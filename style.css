@@ -34,3 +34,19 @@ button{
     font-weight: 600; 
     cursor: pointer ;
 }  
+ 
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid #ddd;
+    padding: 5px; 
+}
+
+.card{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ddd;
+}
